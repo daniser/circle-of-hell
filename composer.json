@@ -1,0 +1,30 @@
+{
+    "name": "ttbooking/circle-of-hell",
+    "description": "Recursion depth determinator for calling function",
+    "type": "library",
+    "keywords": ["recursion", "recurring", "debug", "backtrace"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ttbooking/circle-of-hell/issues",
+        "source": "https://github.com/ttbooking/circle-of-hell"
+    },
+    "authors": [
+        {
+            "name": "Sergey Danilchenko",
+            "email": "s.danilchenko@ttbooking.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+		"files": [
+            "__recurring.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
